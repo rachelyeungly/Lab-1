@@ -1,7 +1,6 @@
 class Reduce {
-    public static void main(String[] args) {
+    public static int main(int n) {
 
-        int n = 100;
         int steps = 0;
 
         while (n > 0) {
@@ -13,6 +12,6 @@ class Reduce {
             }
             steps ++;
         }
-        System.out.println(steps);
+        return steps;
     }
 }
